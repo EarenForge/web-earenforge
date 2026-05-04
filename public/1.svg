@@ -1,0 +1,40 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Icon -->
+  <g transform="translate(20,20) scale(0.35)">
+
+    <rect width="512" height="512" rx="96" fill="#0B0B0B"/>
+
+    <path d="M120 300 Q256 100 392 260" 
+          stroke="#3B82F6" 
+          stroke-width="10" 
+          fill="none" 
+          stroke-linecap="round"/>
+
+    <g transform="translate(360,140)">
+      <polygon points="0,-18 4,-4 18,0 4,4 0,18 -4,4 -18,0 -4,-4" fill="#3B82F6"/>
+    </g>
+
+    <g fill="#FFFFFF">
+      <rect x="140" y="150" width="36" height="220" rx="6"/>
+      <rect x="140" y="150" width="140" height="36" rx="6"/>
+      <rect x="140" y="242" width="110" height="32" rx="6"/>
+      <rect x="140" y="334" width="140" height="36" rx="6"/>
+
+      <rect x="260" y="150" width="36" height="220" rx="6"/>
+      <rect x="260" y="150" width="120" height="36" rx="6"/>
+      <rect x="260" y="242" width="95" height="32" rx="6"/>
+    </g>
+
+  </g>
+
+  <!-- Text -->
+  <text x="240" y="110" fill="#FFFFFF" font-size="64" font-family="Inter, sans-serif" letter-spacing="4">
+    EAREN
+  </text>
+
+  <text x="240" y="170" fill="#3B82F6" font-size="64" font-family="Inter, sans-serif" letter-spacing="4">
+    FORGE
+  </text>
+
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#0f2027"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <path d="M400 120 L440 180 L360 180 Z" fill="url(#accent)" opacity="0.3"/>
+  <path d="M400 140 L425 175 L375 175 Z" fill="url(#accent)" opacity="0.5"/>
+  <path d="M400 155 L412 172 L388 172 Z" fill="url(#accent)" opacity="0.8"/>
+  <text x="400" y="290" font-family="system-ui, sans-serif" font-size="18" fill="#9ca3af" text-anchor="middle" font-weight="500">E-Commerce API</text>
+  <text x="400" y="315" font-family="system-ui, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Node.js • PostgreSQL • Stripe</text>
+</svg>

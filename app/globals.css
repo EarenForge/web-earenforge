@@ -1,26 +1,79 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
+:root, .light {
+  --background: #FFFFFF;
   --foreground: #171717;
+  --card-bg: #F5F5F5;
+  --card-bg-alt: #FAFAFA;
+  --border: #E4E4E7;
+  --muted: #52525B;
+  --muted-strong: #71717A;
+}
+
+.dark {
+  --background: #0B0B0B;
+  --foreground: #FAFAFA;
+  --card-bg: #141414;
+  --card-bg-alt: #0F0F0F;
+  --border: #27272a;
+  --muted: #a1a1aa;
+  --muted-strong: #71717a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-mono: var(--font-mono);
+  --color-card: var(--card-bg);
+  --color-card-alt: var(--card-bg-alt);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-muted-strong: var(--muted-strong);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
 }
