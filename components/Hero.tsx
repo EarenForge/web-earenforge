@@ -7,7 +7,7 @@ export default function Hero() {
   const { t } = useLanguage();
 
   const techBadges = [
-    "Next.js", "TypeScript", "AWS", "Docker", "Kubernetes", "Node.js", "Python", "PostgreSQL",
+    "Next.js", "TypeScript", "AWS", "Docker", "Node.js", "Python", "PostgreSQL", "Rust",
   ];
 
   return (
@@ -29,7 +29,7 @@ export default function Hero() {
           <div className="relative">
             <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-2xl" />
             <Image
-              src="/logo.png"
+              src="/logo1.png"
               alt="Earen Forge"
               width={120}
               height={120}
