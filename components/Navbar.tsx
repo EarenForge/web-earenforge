@@ -48,7 +48,7 @@ export default function Navbar() {
           onClick={(e) => { e.preventDefault(); handleClick("#home"); }}
           className="flex items-center gap-3"
         >
-          <Image src="/logo.png" alt="Earen Forge" width={36} height={36} />
+          <Image src="/logo1.png" alt="Earen Forge" width={36} height={36} />
           <span className="font-semibold text-sm">Earen Forge</span>
         </a>
 

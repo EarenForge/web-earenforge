@@ -29,10 +29,10 @@ export default function Hero() {
           <div className="relative">
             <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-2xl" />
             <Image
-              src="/logo1.png"
+              src="/logo.png"
               alt="Earen Forge"
-              width={120}
-              height={120}
+              width={160}
+              height={160}
               className="relative opacity-90"
             />
           </div>
