@@ -6,10 +6,10 @@ export const en = {
     contact: "Contact",
   },
   hero: {
-    headline_1: "Build",
-    highlight: "solid software",
+    headline_1: "Engineering",
+    highlight: "systems",
     headline_2: "that scales.",
-    subtitle: "FullStack DevOps Engineer designing and building scalable systems, cloud infrastructure, and modern applications that perform under pressure.",
+    subtitle: "FullStack DevOps Engineer designing and building scalable systems, cloud infrastructure, and high-performance applications",
     cta_primary: "View Projects",
     cta_secondary: "Get in Touch",
   },
