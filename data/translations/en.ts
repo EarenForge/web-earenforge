@@ -9,7 +9,7 @@ export const en = {
     headline_1: "Build",
     highlight: "solid software",
     headline_2: "that scales.",
-    subtitle: "FullStack DevOps Engineer designing and building scalable systems, cloud infrastructure, and modern web applications that perform under pressure.",
+    subtitle: "FullStack DevOps Engineer designing and building scalable systems, cloud infrastructure, and modern applications that perform under pressure.",
     cta_primary: "View Projects",
     cta_secondary: "Get in Touch",
   },
@@ -23,7 +23,7 @@ export const en = {
       },
       {
         title: "Backend Systems",
-        description: "Robust APIs and microservices with Node.js, Python, and Go. Designed for high availability, low latency, and seamless integration with any frontend.",
+        description: "Robust APIs and microservices with Node.js, Python, and Rust. Designed for high availability, low latency, and seamless integration with any frontend.",
       },
       {
         title: "Cloud & DevOps",
@@ -31,11 +31,11 @@ export const en = {
       },
       {
         title: "API Design",
-        description: "RESTful and GraphQL APIs built with best practices. Clear documentation, versioning, and authentication patterns that developers love to work with.",
+        description: "RESTful APIs built with best practices. Clear documentation, versioning, and authentication patterns.",
       },
       {
         title: "Database Architecture",
-        description: "Schema design, query optimization, and data migration strategies for PostgreSQL, MongoDB, and Redis. Performance-tuned for your workload.",
+        description: "Schema design, query optimization, and data migration strategies for PostgreSQL, Oracle, MySQL, MongoDB, and Redis. Performance-tuned for your workload.",
       },
       {
         title: "CI/CD Automation",
@@ -51,7 +51,7 @@ export const en = {
   about: {
     title: "About",
     subtitle: "A bit more about who I am and what I do.",
-    badge: "5+ years of experience",
+    badge: "10+ years of experience",
     role: "FullStack DevOps Engineer",
     bio_1: "I specialize in building end-to-end solutions that go from concept to production. With a strong foundation in both development and operations, I bridge the gap between writing clean code and running reliable infrastructure.",
     bio_2: "My approach is simple: build systems that are scalable from the start, automate everything that can be automated, and always design for failure. I believe the best software is not just functional but maintainable, testable, and easy to reason about.",
@@ -60,6 +60,7 @@ export const en = {
       backend: "Backend",
       cloud: "Cloud",
       database: "Database",
+      blockchain: "Blockchain",
     },
   },
   contact: {

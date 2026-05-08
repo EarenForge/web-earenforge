@@ -6,10 +6,11 @@ export default function About() {
   const { t } = useLanguage();
 
   const skillGroups = [
-    { key: "frontend" as const, items: ["React", "Next.js", "TypeScript", "Tailwind CSS"] },
-    { key: "backend" as const, items: ["Node.js", "Python", "Go", "GraphQL"] },
-    { key: "cloud" as const, items: ["AWS", "GCP", "Docker", "Kubernetes"] },
-    { key: "database" as const, items: ["PostgreSQL", "MongoDB", "Redis", "Supabase"] },
+    { key: "frontend" as const, items: ["React", "Next.js", "Vue.js", "TypeScript", "Tailwind CSS"] },
+    { key: "backend" as const, items: ["Node.js", "Python", "Rust"] },
+    { key: "cloud" as const, items: ["AWS", "GCP", "Docker"] },
+    { key: "database" as const, items: ["PostgreSQL", "MySQL", "Oracle", "MongoDB", "Redis", "Supabase"] },
+    { key: "blockchain" as const, items: ["Rust", "Solidity", "Web3.js", "Ethers.js", "Hardhat"] },
   ];
 
   return (

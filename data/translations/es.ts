@@ -7,7 +7,7 @@ export const es = {
   },
   hero: {
     headline_1: "Construye",
-    highlight: "software sólido",
+    highlight: "software sólido y de calidad",
     headline_2: "que escala.",
     subtitle: "Ingeniero FullStack DevOps que diseña y construye sistemas escalables, infraestructura en la nube y aplicaciones web modernas que rinden bajo presión.",
     cta_primary: "Ver Proyectos",
@@ -31,11 +31,11 @@ export const es = {
       },
       {
         title: "Diseño de APIs",
-        description: "APIs RESTful y GraphQL construidas con las mejores prácticas. Documentación clara, versionado y patrones de autenticación que los desarrolladores adoran usar.",
+        description: "APIs RESTful construidas con las mejores prácticas. Documentación clara, versionado y patrones de autenticación.",
       },
       {
         title: "Arquitectura de Bases de Datos",
-        description: "Diseño de esquemas, optimización de consultas y estrategias de migración de datos para PostgreSQL, MongoDB y Redis. Ajustado al rendimiento de tu carga de trabajo.",
+        description: "Diseño de esquemas, optimización de consultas y estrategias de migración de datos para PostgreSQL, Oracle, MySQL, MongoDB y Redis. Ajustado al rendimiento de tu carga de trabajo.",
       },
       {
         title: "Automatización CI/CD",
@@ -51,7 +51,7 @@ export const es = {
   about: {
     title: "Acerca de",
     subtitle: "Un poco más sobre quién soy y qué hago.",
-    badge: "+5 años de experiencia",
+    badge: "+10 años de experiencia",
     role: "Ingeniero FullStack DevOps",
     bio_1: "Me especializo en construir soluciones de principio a fin que van desde el concepto hasta producción. Con una sólida base tanto en desarrollo como en operaciones, cierro la brecha entre escribir código limpio y ejecutar infraestructura fiable.",
     bio_2: "Mi enfoque es simple: construir sistemas que sean escalables desde el inicio, automatizar todo lo que se pueda automatizar y siempre diseñar para el fallo. Creo que el mejor software no es solo funcional, sino mantenible, testeable y fácil de entender.",
@@ -60,6 +60,7 @@ export const es = {
       backend: "Backend",
       cloud: "Cloud",
       database: "Base de Datos",
+      blockchain: "Blockchain",
     },
   },
   contact: {
