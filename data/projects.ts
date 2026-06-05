@@ -8,4 +8,13 @@ export const projects = [
     image: "/projects/project1.svg",
     featured: true,
   },
+  {
+    title: "Klareo",
+    description:
+      "Plataforma para autonomos",
+    stack: ["Next.js", "Supabase", "Stripe"],
+    link: "https://www.klareo.es",
+    image: "/projects/project1.svg",
+    featured: true,
+  },
 ];
