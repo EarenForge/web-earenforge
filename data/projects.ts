@@ -9,9 +9,9 @@ export const projects = [
     featured: true,
   },
   {
-    title: "Klareo",
+    title: "Klareo — Plataforma SaaS para autónomos con facturación y gestión financiera, preparada para VeriFactu.",
     description:
-      "Plataforma para autonomos",
+      "Klareo es una plataforma web diseñada para ayudar a autónomos y pequeños negocios a gestionar su facturación, ingresos y gastos desde una única herramienta, cumpliendo con los requisitos de la normativa VeriFactu.",
     stack: ["Next.js", "Supabase", "Stripe"],
     link: "https://www.klareo.es",
     image: "/projects/project1.svg",
