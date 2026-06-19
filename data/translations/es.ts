@@ -23,7 +23,7 @@ export const es = {
       },
       {
         title: "Sistemas Backend",
-        description: "APIs robustas y microservicios con Node.js, Python y Go. Diseñados para alta disponibilidad, baja latencia e integración perfecta con cualquier frontend.",
+        description: "APIs robustas y microservicios con Node.js, Python y Rust. Diseñados para alta disponibilidad, baja latencia e integración perfecta con cualquier frontend.",
       },
       {
         title: "Cloud & DevOps",
