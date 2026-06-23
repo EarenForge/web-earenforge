@@ -7,6 +7,10 @@ import { LanguageProvider } from "@/components/LanguageProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.earenforge.com"),
+  alternates: {
+    canonical: "/",
+  },
   title: "Earen Forge | FullStack DevOps Engineer",
   description: "Designing and building scalable systems, cloud infrastructure, and modern web applications. Expert in Next.js, AWS, Docker, and more.",
   keywords: ["FullStack Developer", "DevOps", "Cloud Engineer", "Next.js", "AWS", "Docker", "Kubernetes"],
